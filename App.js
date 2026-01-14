@@ -41,7 +41,7 @@ const App = () => {
             <View>
                 <Text style={{borderWidth:1}}>{item.card_name}</Text>
                 <Image source ={{uri: item.card_pic}}
-                       style={{ width: 100, height: 100 }} />
+                       style={{ width: 110, height: 150}} />
             </View>
         );
     };
